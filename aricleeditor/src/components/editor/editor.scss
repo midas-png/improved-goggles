@@ -1,0 +1,57 @@
+.editor__wrapper {
+    display: flex;
+    justify-content: center;
+    background: #c0c0c0;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.editable__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    gap: 15px;
+    padding: 50px;
+    background: #fff;
+}
+
+.form__text {
+    height: 300px;
+    resize: none;
+}
+
+.text__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.formatting__wrapper {
+    display: flex;
+    gap: 15px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+.formatting__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+
+    &.active {
+        background: #c0c0c0;
+    }
+}
+
+.form__button {
+    width: 100px;
+    padding: 5px 10px;
+}
