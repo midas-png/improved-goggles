@@ -1,12 +1,12 @@
 FROM node:16.14-alpine
 
-WORKDIR /serverapp
+WORKDIR /app
 
-COPY package.json /serverapp
+COPY package.json /app
 
 RUN npm i
 
-COPY . /serverapp
+COPY . /app
 
 CMD npm run start
 
