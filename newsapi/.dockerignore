@@ -1,2 +1,5 @@
-node_modules
-npm-debug.log
+**/node_modules
+README.md
+package.json
+package-lock.json
+docker-compose.dev.yml
